@@ -1,97 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-13T15:06:29 PDT" name="Suite" finished-at="2024-07-13T15:07:22 PDT" duration-ms="52969">
+  <suite started-at="2024-07-15T13:34:12 PDT" name="Suite" finished-at="2024-07-15T13:35:25 PDT" duration-ms="73039">
     <groups>
     </groups>
-    <test started-at="2024-07-13T15:06:29 PDT" name="Test" finished-at="2024-07-13T15:07:22 PDT" duration-ms="52969">
-      <class name="com.webshop.tests.LoginPageTests">
-        <test-method is-config="true" signature="setUpReport()[pri:0, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:29 PDT" name="setUpReport" finished-at="2024-07-13T15:06:29 PDT" duration-ms="126" status="PASS">
+    <test started-at="2024-07-15T13:34:12 PDT" name="Test" finished-at="2024-07-15T13:35:25 PDT" duration-ms="73039">
+      <class name="com.webshop.tests.HomePageTests">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:com.webshop.tests.HomePageTests@cb0755b]" started-at="2024-07-15T13:34:12 PDT" name="setUpReport" finished-at="2024-07-15T13:34:12 PDT" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:29 PDT" name="setUp" finished-at="2024-07-13T15:06:33 PDT" duration-ms="3783" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.HomePageTests@cb0755b]" started-at="2024-07-15T13:34:12 PDT" name="setUp" finished-at="2024-07-15T13:34:16 PDT" duration-ms="4246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginPageTitle()[pri:1, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:33 PDT" name="testLoginPageTitle" finished-at="2024-07-13T15:06:36 PDT" duration-ms="3053" status="PASS">
+        <test-method signature="testHomePageTitle()[pri:1, instance:com.webshop.tests.HomePageTests@cb0755b]" started-at="2024-07-15T13:34:16 PDT" name="testHomePageTitle" finished-at="2024-07-15T13:34:19 PDT" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.HomePageTests@cb0755b]" started-at="2024-07-15T13:34:19 PDT" name="tearDown" finished-at="2024-07-15T13:34:22 PDT" duration-ms="2087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageTitle status=SUCCESS method=HomePageTests.testHomePageTitle()[pri:1, instance:com.webshop.tests.HomePageTests@cb0755b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.HomePageTests@cb0755b]" started-at="2024-07-15T13:34:22 PDT" name="setUp" finished-at="2024-07-15T13:34:27 PDT" duration-ms="5894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMyAccountLink()[pri:2, instance:com.webshop.tests.HomePageTests@cb0755b]" started-at="2024-07-15T13:34:27 PDT" name="testMyAccountLink" finished-at="2024-07-15T13:34:29 PDT" duration-ms="1257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyAccountLink -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.HomePageTests@cb0755b]" started-at="2024-07-15T13:34:29 PDT" name="tearDown" finished-at="2024-07-15T13:34:29 PDT" duration-ms="302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMyAccountLink status=SUCCESS method=HomePageTests.testMyAccountLink()[pri:2, instance:com.webshop.tests.HomePageTests@cb0755b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webshop.tests.HomePageTests -->
+      <class name="com.webshop.tests.LoginPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:34:29 PDT" name="setUp" finished-at="2024-07-15T13:34:34 PDT" duration-ms="5310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPageTitle()[pri:1, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:34:34 PDT" name="testLoginPageTitle" finished-at="2024-07-15T13:34:35 PDT" duration-ms="1154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageTitle -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:36 PDT" name="tearDown" finished-at="2024-07-13T15:06:36 PDT" duration-ms="384" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:34:35 PDT" name="tearDown" finished-at="2024-07-15T13:34:36 PDT" duration-ms="362" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginPageTitle status=SUCCESS method=LoginPageTests.testLoginPageTitle()[pri:1, instance:com.webshop.tests.LoginPageTests@548d708a] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginPageTitle status=SUCCESS method=LoginPageTests.testLoginPageTitle()[pri:1, instance:com.webshop.tests.LoginPageTests@350aac89] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:36 PDT" name="setUp" finished-at="2024-07-13T15:06:40 PDT" duration-ms="3248" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:34:36 PDT" name="setUp" finished-at="2024-07-15T13:34:42 PDT" duration-ms="6418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testWelcomeSignIn()[pri:2, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:40 PDT" name="testWelcomeSignIn" finished-at="2024-07-13T15:06:44 PDT" duration-ms="4327" status="PASS">
+        <test-method signature="testWelcomeSignIn()[pri:2, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:34:42 PDT" name="testWelcomeSignIn" finished-at="2024-07-15T13:34:43 PDT" duration-ms="997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWelcomeSignIn -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:44 PDT" name="tearDown" finished-at="2024-07-13T15:06:44 PDT" duration-ms="514" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:34:43 PDT" name="tearDown" finished-at="2024-07-15T13:34:44 PDT" duration-ms="318" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testWelcomeSignIn status=SUCCESS method=LoginPageTests.testWelcomeSignIn()[pri:2, instance:com.webshop.tests.LoginPageTests@548d708a] output={null}]]]>
+                <![CDATA[[TestResult name=testWelcomeSignIn status=SUCCESS method=LoginPageTests.testWelcomeSignIn()[pri:2, instance:com.webshop.tests.LoginPageTests@350aac89] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:44 PDT" name="setUp" finished-at="2024-07-13T15:06:48 PDT" duration-ms="3224" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:34:44 PDT" name="setUp" finished-at="2024-07-15T13:34:50 PDT" duration-ms="5953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForgotPasswordPasswordIsDisplayed()[pri:3, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:48 PDT" name="testForgotPasswordPasswordIsDisplayed" finished-at="2024-07-13T15:06:51 PDT" duration-ms="3602" status="PASS">
+        <test-method signature="testForgotPasswordPasswordIsDisplayed()[pri:3, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:34:50 PDT" name="testForgotPasswordPasswordIsDisplayed" finished-at="2024-07-15T13:34:51 PDT" duration-ms="1172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForgotPasswordPasswordIsDisplayed -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:51 PDT" name="tearDown" finished-at="2024-07-13T15:06:52 PDT" duration-ms="711" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:34:51 PDT" name="tearDown" finished-at="2024-07-15T13:34:51 PDT" duration-ms="563" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testForgotPasswordPasswordIsDisplayed status=SUCCESS method=LoginPageTests.testForgotPasswordPasswordIsDisplayed()[pri:3, instance:com.webshop.tests.LoginPageTests@548d708a] output={null}]]]>
+                <![CDATA[[TestResult name=testForgotPasswordPasswordIsDisplayed status=SUCCESS method=LoginPageTests.testForgotPasswordPasswordIsDisplayed()[pri:3, instance:com.webshop.tests.LoginPageTests@350aac89] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:52 PDT" name="setUp" finished-at="2024-07-13T15:06:55 PDT" duration-ms="3214" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:34:51 PDT" name="setUp" finished-at="2024-07-15T13:34:55 PDT" duration-ms="3377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginFunction()[pri:4, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:06:55 PDT" name="testLoginFunction" finished-at="2024-07-13T15:07:02 PDT" duration-ms="6385" status="PASS">
+        <test-method signature="testLoginFunction()[pri:4, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:34:55 PDT" name="testLoginFunction" finished-at="2024-07-15T13:35:01 PDT" duration-ms="6753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginFunction -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:07:02 PDT" name="tearDown" finished-at="2024-07-13T15:07:03 PDT" duration-ms="909" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:35:01 PDT" name="tearDown" finished-at="2024-07-15T13:35:02 PDT" duration-ms="238" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginFunction status=SUCCESS method=LoginPageTests.testLoginFunction()[pri:4, instance:com.webshop.tests.LoginPageTests@548d708a] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginFunction status=SUCCESS method=LoginPageTests.testLoginFunction()[pri:4, instance:com.webshop.tests.LoginPageTests@350aac89] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:07:03 PDT" name="setUp" finished-at="2024-07-13T15:07:09 PDT" duration-ms="6389" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:35:02 PDT" name="setUp" finished-at="2024-07-15T13:35:07 PDT" duration-ms="5352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginInvalidCredientials()[pri:5, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:07:09 PDT" name="testLoginInvalidCredientials" finished-at="2024-07-13T15:07:21 PDT" duration-ms="12030" status="FAIL">
+        <test-method signature="testLoginInvalidCredientials()[pri:5, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:35:07 PDT" name="testLoginInvalidCredientials" finished-at="2024-07-15T13:35:25 PDT" duration-ms="17500" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Log out"}
@@ -100,9 +140,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [050e90047733a249a45ded01250ab61d, findElement {value=Log out, using=link text}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\bosed\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60978/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 050e90047733a249a45ded01250ab61d]]>
+Command: [e52fd716466ef75ecd1a41e288e55fb0, findElement {using=link text, value=Log out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\bosed\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51516}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51516/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e52fd716466ef75ecd1a41e288e55fb0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log out"}
@@ -111,9 +151,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [050e90047733a249a45ded01250ab61d, findElement {value=Log out, using=link text}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\bosed\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60978/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 050e90047733a249a45ded01250ab61d
+Command: [e52fd716466ef75ecd1a41e288e55fb0, findElement {using=link text, value=Log out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\bosed\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51516}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51516/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e52fd716466ef75ecd1a41e288e55fb0
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -133,7 +173,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-at com.webshop.pages.HomePage.isLogoutLinkPresent(HomePage.java:25)
+at com.webshop.pages.HomePage.isLogoutLinkPresent(HomePage.java:28)
 at com.webshop.tests.LoginPageTests.testLoginInvalidCredientials(LoginPageTests.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -169,11 +209,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginInvalidCredientials -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.LoginPageTests@548d708a]" started-at="2024-07-13T15:07:21 PDT" name="tearDown" finished-at="2024-07-13T15:07:22 PDT" duration-ms="1146" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.webshop.tests.LoginPageTests@350aac89]" started-at="2024-07-15T13:35:25 PDT" name="tearDown" finished-at="2024-07-15T13:35:25 PDT" duration-ms="524" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginInvalidCredientials status=FAILURE method=LoginPageTests.testLoginInvalidCredientials()[pri:5, instance:com.webshop.tests.LoginPageTests@548d708a] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginInvalidCredientials status=FAILURE method=LoginPageTests.testLoginInvalidCredientials()[pri:5, instance:com.webshop.tests.LoginPageTests@350aac89] output={null}]]]>
               </value>
             </param>
           </params>

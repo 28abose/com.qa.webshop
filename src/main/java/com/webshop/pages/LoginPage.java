@@ -43,6 +43,7 @@ public class LoginPage extends DriverScript {
 	}
 	
 	public String getLoginPageTitle() {
+		System.out.println(driver.getTitle());
 		return driver.getTitle();
 	}
 }

@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.webshop.base.DriverScript">
+      <class name="com.webshop.tests.HomePageTests">
         <methods>
-          <include name="initApplication"/>
+          <include name="testMyAccountLink"/>
+          <include name="setUpReport"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.webshop.base.DriverScript -->
+      </class> <!-- com.webshop.tests.HomePageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
