@@ -5,6 +5,7 @@
     <classes>
       <class name="com.webshop.tests.HomePageTests"/>
       <class name="com.webshop.tests.LoginPageTests"/>
+      <class name="com.webshop.tests.BooksPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

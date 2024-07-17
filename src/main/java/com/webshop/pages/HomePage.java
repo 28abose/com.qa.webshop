@@ -14,8 +14,8 @@ public class HomePage extends DriverScript{
 	@FindBy(linkText = "Log in") private WebElement loginLink;
 	@FindBy(linkText = "Log out") private WebElement logoutLink;
 	@FindBy(xpath = "//img[@alt='Tricentis Demo Web Shop']") private WebElement homepagelogo;
-	//@FindBy(xpath = "//h3[text()='My account']") private WebElement myaccountlink;
 	@FindBy(linkText = "My account") private WebElement myaccountlink;
+	@FindBy(xpath = "(//a[contains(text(),'Books')])[1]") private WebElement booksMenu;
 	
 	//******************** Page Initialization***************************
 	public HomePage() {
@@ -24,6 +24,10 @@ public class HomePage extends DriverScript{
 	
 	//******************** Page Methods/Actions***************************
 	
+	public void clickBooksMenu() {
+		booksMenu.click();
+	}
+		
 	public boolean isLogoutLinkPresent() {
 		return logoutLink.isDisplayed();
 	}
